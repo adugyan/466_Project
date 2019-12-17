@@ -2,7 +2,8 @@
 http://students.cs.niu.edu/~z1723260/466GroupProject/index.php
 http://students.cs.niu.edu/~z1723260/466GroupProject/dj.php
 
-Wb application implemented using PHP and CSS contains:
+Web application implemented using PHP and CSS contains:
+
 • a page that allows a user to specify an artist, song title, or contributor to search for
 
 • a page that shows the songs that match the criteria from the above page. Show all
