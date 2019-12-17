@@ -1,0 +1,178 @@
+    body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    }
+    
+    p {
+        color: #ffffff;
+        font-size: 150%;
+    }
+    
+    h1 {
+        color: #ffffff;
+        padding-left: 10px;
+    }
+    
+    ol {
+        color: #ffffff;
+    }
+    
+    td {
+        border: 1px white;
+        color: #ffffff;
+    }
+
+    table {
+        width: 50%;
+        border: 1px white;
+        border-color: #ffffff;
+        border-collapse: collapse;
+    }
+
+    .selForm {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 14px 20px;
+    margin-top: 3vh;
+    border: border-box;
+    border-radius: .3rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: verdana;
+    border-color: black;
+    }
+
+    .fileSelect {
+        border-bottom: 1px solid white;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+    .tdata {
+        border-bottom: 1px solid;
+        border-color: white;
+        background: #eeeeee;
+        font-family: verdana;
+        color: black;
+        padding-top: 15px; 
+        padding-bottom: 15px; 
+    }
+
+    .tHeader {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color:  black;
+        border-bottom: 1px solid white;
+        font-family: verdana;
+    }
+
+    .tableBox {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        max-height: 80vh;
+        min-height: 20vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+        overflow-y: auto;
+    }
+
+    .formHeader {
+            position: relative;
+            background-color: black;
+            margin: auto;
+            width: 70%;
+            height: 20vh;
+            border: 1px solid;
+            border-color: rgb(15, 15, 15);
+            border-radius: .6rem;
+            top: 7vh;
+    }
+
+    .selectBox {
+        position: absolute;
+        width: 100%;
+        top: 10vh;
+        max-height: 100vh;
+        background-color: #e4e3e3;
+        border-radius: .6rem;
+        border: 1px solid #e4e3e3;
+        margin-bottom: 5vh;
+    }
+
+    .tSubmit {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        background-color: yellow;
+    }
+
+    .tButton {
+        width: 100%;
+        position: relative;
+        border-radius: .4rem;
+        padding: 1rem .8rem;
+        cursor: pointer;
+        border-color: rgb(0, 43, 112);
+        background-color: #3500D3;
+        font-family: verdana;
+        color: white;
+    }
+
+    .fileSelect tr {
+        text-align: center;
+    }
+
+    .fileSelect tr:hover {
+        background-color: #ff6644;
+    } 
+
+    .navbar {
+        background-color: black;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .pageTitle {
+        font-size: 300%;
+        font-family: verdana;
+        position: relative;
+        left: .5%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #3500D3;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
